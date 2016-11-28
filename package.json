@@ -1,5 +1,5 @@
 {
-  "scrips": {
+  "scripts": {
     "dev": "node build.js",
     "deploy": "git subtree push --prefix build origin gh-pages"
   },
@@ -13,6 +13,7 @@
     "metalsmith-serve": "^0.0.7",
     "metalsmith-templates": "^0.7.0",
     "metalsmith-watch": "^1.0.3",
-    "moment": "^2.17.0"
+    "moment": "^2.17.0",
+    "then-jade": "^2.4.3"
   }
 }
